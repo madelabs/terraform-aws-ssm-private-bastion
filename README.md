@@ -52,5 +52,4 @@ No modules.
 |------|-------------|
 | <a name="output_bastion_instance_id"></a> [bastion\_instance\_id](#output\_bastion\_instance\_id) | n/a |
 | <a name="output_bastion_private_ip"></a> [bastion\_private\_ip](#output\_bastion\_private\_ip) | n/a |
-| <a name="output_ssm_connection_command"></a> [ssm\_connection\_command](#output\_ssm\_connection\_command) | n/a |
 <!-- END_TF_DOCS -->
