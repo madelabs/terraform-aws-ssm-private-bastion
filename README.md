@@ -1,6 +1,12 @@
 # terraform-aws-ssm-private-bastion
 A Terraform module for creating an SSM private bastion host.
 
+Connect to your RDS instance through the bastion host using the following command:
+
+```bash
+aws ssm start-session --target <BASTION-INSTANCE-ID> --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters host=\"<RDS-INSTANCE-ENDPOINT-HERE>\",portNumber=\"<RDS-PORT>\",localPortNumber=\"<LOCAL-PORT-TO-MAP>\"
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Providers
 
