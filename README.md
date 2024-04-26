@@ -12,7 +12,7 @@ aws ssm start-session --target <BASTION-INSTANCE-ID> --document-name AWS-StartPo
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5.38.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5.47.0 |
 
 ## Modules
 
